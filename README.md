@@ -1,3 +1,188 @@
-# saebyulpark.github.io
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saebyul Park - Official Website</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #AFE3CE, #FFD4C2, #FDAA9D, #AFE3CE, #C7F0DC, #D9FAE0);
+            font-size: 20px; /* Increase the overall font size */
+            line-height: 1.6;
+        }
 
-hello world
+        header {
+            background-color: #AFE3CE; /* Magic Mint - Header background color */
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #C7F0DC; /* Aero Blue - Navigation background color */
+            color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: transparent; /* Set background color to transparent */
+            border-radius: 0; /* Removed border-radius */
+        }
+
+        h1, h2 {
+            color: #000; /* Black - Heading color */
+        }
+
+        h1 {
+            margin-bottom: 10px;
+            font-size: 2em; /* Increase the h1 font size */
+        }
+
+        h2 {
+            font-size: 1.5em; /* Increase the h2 font size */
+        }
+
+        p {
+            color: #333;
+        }
+
+        a {
+            color: #000; /* Black - Link color */
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: #333; /* Dark Grey - Hovered link color */
+        }
+
+        footer {
+            background-color: #C7F0DC; /* Aero Blue - Footer background color */
+            color: #333;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Saebyul Park</h1>
+        <p>K-pop Singer-Songwriter and AI Researcher</p>
+    </header>
+
+    <nav>
+        <a href="#bio">Biography</a> |
+        <a href="#publications">Publications</a> |
+        <a href="#youtube">YouTube Channel</a> |
+        <a href="#wikipedia">Wikipedia</a>
+    </nav>
+
+    <section id="main-image">
+        <img src="https://image.genie.co.kr/Y/IMAGE/IMG_ALBUM/084/411/946/84411946_1698048999181_1_600x600.JPG" alt="Saebyul Park" style="width: 100%; max-width: 600px; height: auto; display: block; margin: 0 auto;">
+    </section>
+
+   <section id="bio">
+    <h2>Biography</h2>
+    <ul>
+        <li><strong>Profession:</strong> Singer-songwriter, AI researcher, educator</li>
+        <li><strong>Education:</strong> BA in Psychology, Yonsei University; MA and PhD from KAIST Graduate School of Culture Technology</li>
+        <li><strong>Current Affiliation:</strong> Antenna Music</li>
+        <li><strong>Music Career:</strong>
+            <ul>
+                <li>EP "DIARY" (2008), albums "새벽별" (2010), "하이힐" (2012), "Ballades Op.3" (2019)</li>
+                <li>Singles "노래할게요" (2013), "SKY HIGH" (2015)</li>
+                <li>New EP "Everblooming" (2023)</li>
+                <li>Composed hit songs for Jeong Seung-hwan and Lyn</li>
+            </ul>
+        </li>
+        <li><strong>Media Roles:</strong>
+            <ul>
+                <li>Hosted "난장" (Gwangju MBC, 2009-2010)</li>
+                <li>DJ on EBS "아름다운 동요세상" (2011-2012)</li>
+                <li>Music teacher on EBS's "딩동댕 유치원" (2020-2021)</li>
+            </ul>
+        </li>
+        <li><strong>Academia:</strong>
+            <ul>
+                <li>Former adjunct professor at Baekseok and Hongik University</li>
+                <li>Adjunct professor at Yonsei University's Underwood International College</li>
+            </ul>
+        </li>
+    </ul>
+</section>
+
+
+        </ul>
+    </section>
+
+ <section id="publications">
+        <h2>Publications</h2>
+        
+        <h3>2024</h3>
+        <ul>
+            <li>Park, S., Choi, E., Kim, J., Nam, J. "Mel2Word: A Text-Based Melody Representation for Symbolic Music Analysis." <em>Music & Science</em>, 7 
+        </ul>
+
+        <h3>2023</h3>
+        <ul>
+            <li>Park, S.P., Hwang, D. "EMO100DB: An Open Dataset of Improvised Songs with Emotion Data." <em>Proceedings of the 17th International Conference on Music Perception and Cognition</em>.</li>
+            <li>Park, S.P., Nam, J. "The Language of Jazz: A Natural Language Processing-based Analysis of the Patterns and Vocabulary of Jazz Solo Improvisation." <em>Proceedings of the 17th International Conference on Music Perception and Cognition</em>.</li>
+        </ul>
+
+        <h3>2020</h3>
+        <ul>
+            <li>Choi, S., Kim, W., Park, S., Yong, S., Nam, J. "Children’s song dataset for singing voice research." <em>International Society for Music Information Retrieval Conference (ISMIR)</em>, 4, 28.</li>
+            <li>Choi, S., Kim, W., Park, S., Yong, S., Nam, J. "Korean singing voice synthesis based on auto-regressive boundary equilibrium gan." <em>ICASSP 2020-2020 IEEE International Conference on Acoustics, Speech and …</em>, 27.</li>
+        </ul>
+
+        <h3>2019</h3>
+        <ul>
+            <li>Park, S., Kwon, T., Lee, J., Kim, J., Nam, J. "A Cross-Scape Plot Representation for Visualizing Symbolic Melodic Similarity." <em>ISMIR</em>, 423-430.</li>
+        </ul>
+
+        <h3>2015</h3>
+        <ul>
+            <li>Park, S.B., Kim, S.H., Jeong, D.S., Nam, J.H., Kim, J.H. "Melodic and Harmonic Similarity for Music Plagiarism: Comparison between computational analysis and perceptual evaluation." <em>The 2015 biennial meeting of the Society for Music Perception & Cognition</em>.</li>
+            <li>Park, J.K., Saebyul, Park, Kim, S., Jeong, D., Nam, J. "Melodic and Harmonic Similarity for Music Plagiarism: Comparison between computational analysis and perceptual evaluation." <em>Proceedings of the Society for Music Perception and Cognition (SMPC)</em>.</li>
+        </ul>
+
+        <h3>2014</h3>
+        <ul>
+            <li>Park, S., Shi, C.K., Kim, J. "The Role of Affective Factors in Computer-Aided Musical Learning for Non-musician Adults." <em>HCI International 2014-Posters’ Extended Abstracts: International Conference …</em></li>
+        </ul>
+
+        <h3>2013</h3>
+        <ul>
+            <li>Park, S., Ban, S.H., Hong, D.R., Yeo, W.S. "Sound Surfing Network (SSN): Mobile Phone-based Sound Spatialization with Audience Collaboration." <em>NIME</em>, 111-114.</li>
+        </ul>
+
+        <p>For more detailed information on her research, visit my <a href="https://scholar.google.com/citations?user=fjugFaUAAAAJ&hl=en&oi=ao" target="_blank">Google Scholar profile</a>.</p>
+    </section>
+
+<section id="youtube">
+    <h2>YouTube Channel</h2>
+    <p>Visit my official YouTube channel to check out songs and performances.</p>
+
+    <p>YouTube Channel: <a href="https://www.youtube.com/@user-nu6xp7le3e" target="_blank"> [Saebyul Park]</a></p>
+</section>
+
+
+<section id="wikipedia">
+<h2>Wikipedia</h2>
+    <p>For more information, visit my Wikipedia page.</p>
+    <p>Wikipedia: <a href="https://ko.wikipedia.org/wiki/%EB%B0%95%EC%83%88%EB%B3%84" target="_blank">Saebyul Park</a></p>
+</section>
+
+
+    <footer>
+        &copy; 2023 Saebyul Park. All rights reserved.
+    </footer>
+</body>
+</html>
